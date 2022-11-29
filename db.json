@@ -1,22 +1,10 @@
 {
   "users": [
     {
-      "name": "111111125",
-      "username": "11111111",
-      "email": "111111",
+      "name": "These are",
+      "username": "basicly",
+      "email": "CRUD Operations",
       "id": 2
-    },
-    {
-      "name": "adada",
-      "username": "dadada",
-      "email": "addad",
-      "id": 3
-    },
-    {
-      "name": "new1111",
-      "username": "new1111",
-      "email": "new1111",
-      "id": 5
     }
   ]
 }
