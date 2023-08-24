@@ -1,9 +1,8 @@
-import axios from "axios";
 import React, { useState } from "react";
-import { useNavigate } from "react-router-dom";
+//import { useNavigate } from "react-router-dom";
 
 function AddUser() {
-  const navigate = useNavigate();
+  //const navigate = useNavigate();
 
   const [formData, setFormData] = useState({
     name: "",
@@ -12,9 +11,9 @@ function AddUser() {
   });
 
   const handleFormSubmit = async (e) => {
-    let response = await axios
-      .post("http://localhost:4000/users", formData)
-      .then(navigate("/"));
+    // let response = await axios
+    //   .post("http://localhost:4000/users", formData)
+    //   .then(navigate("/"));
   };
 
   return (
