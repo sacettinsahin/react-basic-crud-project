@@ -15,7 +15,7 @@ function EditUser() {
       setUsername(res.data.username);
       setEmail(res.data.email);
     });
-  }, []);
+  }, [id]);
 
   const navigate = useNavigate();
 
